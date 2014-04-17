@@ -1,0 +1,30 @@
+{
+  "name": "wavo-random-string"
+, "description": "Random String Generator for Wavo.me"
+, "version": "0.0.1"
+, "homepage": "https://wavo.me"
+
+, "repository":
+  { "type" : "git"
+  , "url" : "git://github.com/Wavo/wavo-random-string.git"
+  }
+
+, "author": "Gabriel Lesperance <gabriel@wavo.me> (glesperance.com / wavo.me)"
+, "main": "random_string.js"
+, "engines": {
+    "node": ">=0.10.0"
+  }
+
+, "devDependencies": {
+      "chai"  : "1.9.x"
+    , "mocha" : "1.18.x"
+    , "sinon" : "1.1.x"
+  }
+
+, "scripts": {
+    "test": "NODE_ENV=test ./node_modules/.bin/mocha"
+  }
+
+, "dependencies": {
+  }
+}

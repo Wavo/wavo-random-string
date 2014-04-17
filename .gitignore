@@ -1,0 +1,12 @@
+node_modules
+.project
+.DS_Store
+/db
+client/.DS_Store
+client/.DS_Store
+client/.DS_Store
+client/css/.DS_Store
+___*
+tmp/*
+.RData
+.Rhistory
